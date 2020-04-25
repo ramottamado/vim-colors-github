@@ -224,10 +224,10 @@ call s:Col('Error', 'gutter', 'darkred')
 call s:Col('Title', 'base1')
 call s:Attr('Title', 'bold')
 
-call s:Col('VertSplit',    'grey1', 'grey1')
+call s:Col('VertSplit',    'grey1',  'grey1')
 call s:Col('LineNr',       'base4',  'gutter')
-hi link     SignColumn       LineNr
-hi link     EndOfBuffer      LineNr
+call s:Col('SignColumn',   'base4',  'gutter')
+call s:Col('EndOfBuffer',  'base4',  'gutter')
 call s:Col('ColorColumn',  '',       'grey2')
 call s:Col('CursorLineNR', 'base3',  'lightorange_nr')
 call s:Col('CursorLine',   '',       'lightorange')
