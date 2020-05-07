@@ -220,7 +220,7 @@ call s:Col('MatchParen', 'darkblue', 'blue3')
 " call outer(inner, one, two(three, four))
 call s:Col('WarningMsg', 'orange')
 call s:Col('ErrorMsg', 'darkred')
-call s:Col('Error', 'gutter', 'darkred')
+call s:Col('Error', 'base0', 'red')
 call s:Col('Title', 'base1')
 call s:Attr('Title', 'bold')
 
