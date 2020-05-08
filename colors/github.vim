@@ -522,16 +522,16 @@ let g:fzf_colors = {
 
 if has("spell")
   call s:Col('SpellBad', 'red')
-  call s:Attr('SpellBad', 'undercurl')
+  call s:Attr('SpellBad', 'underline')
   call s:Spell('SpellBad', 'red')
   call s:Col('SpellCap', 'green')
-  call s:Attr('SpellCap', 'undercurl')
+  call s:Attr('SpellCap', 'underline')
   call s:Spell('SpellCap', 'green')
   call s:Col('SpellLocal', 'purple')
-  call s:Attr('SpellLocal', 'undercurl')
+  call s:Attr('SpellLocal', 'underline')
   call s:Spell('SpellLocal', 'yellow')
   call s:Col('SpellRare', 'purple')
-  call s:Attr('SpellRare', 'undercurl')
+  call s:Attr('SpellRare', 'underline')
   call s:Spell('SpellRare', 'purple')
 endif
 
