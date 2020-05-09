@@ -254,7 +254,7 @@ call s:Col('airlineReplace1', 'grey1', 'red')
 call s:Col('airlineReplace2', 'grey1', 'darkred')
 call s:Col('airlineWarning',  'grey1', 'orange')
 call s:Col('airlineError',    'grey1', 'darkred')
-call s:Col('airlineTerm',     'grey1', 'base1')
+call s:Col('airlineTerm',     'base0', 'grey1')
 
 call s:Col('Pmenu',      'base3', 'overlay')
 call s:Col('PmenuSel',   'overlay',  'blue') | call s:Attr('PmenuSel', 'bold')
