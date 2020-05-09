@@ -225,7 +225,7 @@ call s:Col('Title', 'base1')
 call s:Attr('Title', 'bold')
 
 call s:Col('VertSplit',    'grey1',  'grey1')
-call s:Col('LineNr',       'bg',  'bg')
+call s:Col('LineNr',       'base4',  'gutter')
 call s:Col('SignColumn',   'base4',  'gutter')
 call s:Col('EndOfBuffer',  'base4',  'gutter')
 call s:Col('ColorColumn',  '',       'grey2')
