@@ -23,7 +23,8 @@ function! airline#themes#github#refresh()
 
   let group = airline#themes#get_highlight('vimCommand')
   let g:airline#themes#github#palette.normal_modified = {
-        \ 'airline_c': [ group[0], '', group[2], '', '' ]
+        \ 'airline_c': [ group[0], '', group[2], '', '' ],
+        \ 'airline_term': s:T,
         \ }
 
   let s:I1 = airline#themes#get_highlight('airlineInsert1')
@@ -74,8 +75,6 @@ function! airline#themes#github#refresh()
         \ })
   let g:airline#themes#github#palette.inactive_modified = {
         \ 'airline_c': [ group[0], '', group[2], '', '' ],
-        \ 'airline_warning': s:W,
-        \ 'airline_error': s:E,
         \ 'airline_term': s:T,
         \ }
 endfunction
