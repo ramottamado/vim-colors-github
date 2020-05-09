@@ -483,6 +483,9 @@ else
   call s:Col('GitGutterChangeDelete', 'red', 'lightorange_nr')
 endif
 
+call s:Col('ALEWarningSign', 'purple', 'gutter')
+call s:Col('ALEErrorSign',   'red',    'gutter')
+
 " NERDTree
 hi link NERDTreeDir       ghBlue
 hi link NERDTreeCWD       ghRed
