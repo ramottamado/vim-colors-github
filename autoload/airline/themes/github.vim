@@ -59,6 +59,12 @@ function! airline#themes#github#refresh()
         \ })
   let g:airline#themes#github#palette.visual_modified = g:airline#themes#github#palette.normal_modified
 
+  let g:airline#themes#github#palette.commandline = extend(g:palette_normal, {
+        \ 'airline_warning': s:W,
+        \ 'airline_error': s:E,
+        \ 'airline_term': s:T,
+        \ })
+
   let s:IA = airline#themes#get_highlight2(['NonText', 'fg'], ['StatusLineNC', 'bg'])
   let g:palette_inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
   let g:airline#themes#github#palette.inactive = extend(g:palette_inactive, {
