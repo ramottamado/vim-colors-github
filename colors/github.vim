@@ -486,6 +486,11 @@ endif
 call s:Col('ALEWarningSign', 'purple', 'gutter')
 call s:Col('ALEErrorSign',   'red',    'gutter')
 
+hi link CocHintSign       ALEWarningSign
+hi link CocInfoSign       ALEWarningSign
+hi link CocWarningSign    ALEWarningSign
+hi link CocErrorSign      ALEErrorSign
+
 " NERDTree
 hi link NERDTreeDir       ghBlue
 hi link NERDTreeCWD       ghRed
