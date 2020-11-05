@@ -204,7 +204,7 @@ call s:Col('ghOver', 'overlay')
 
 " UI colors {{{
 
-call s:Col('Normal', 'base0', 'bg')
+" call s:Col('Normal', 'base0', 'bg')
 call s:Col('Cursor', 'bg', 'base0')    " only if vim gets to render cursor
 call s:Col('Visual', '', 'visualblue')
 call s:Col('VisualNOS', '', 'lightblue')
